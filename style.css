@@ -1,0 +1,46 @@
+*{
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    border: 2px solid;
+}
+.box{
+    text-align: center;
+    width: 15%;
+}
+
+div :nth-child(01) {
+    background: rgb(244, 0, 0);
+}
+
+div :nth-child(02) {
+    background: rgb(0, 0, 237);
+}
+
+div :nth-child(03) {
+    background: rgb(0, 168, 0);
+}
+
+div :nth-child(04) {
+    background: rgb(255, 166, 0);
+}
+
+div :nth-child(05) {
+    background: rgb(119, 237, 237);
+}
+
+div :nth-child(06) {
+    background: rgb(178, 228, 244);
+}
+
+div :nth-child(07) {
+    background: rgb(104, 0, 104);
+}
+
+div :nth-child(08) {
+    background: rgb(239, 106, 239);
+}
